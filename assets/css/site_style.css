@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans&family=Kanit&family=Playfair+Display:wght@600&family=Poppins:wght@200&family=Signika+Negative:wght@600&family=Source+Code+Pro:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background-3104413_1280);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+header{
+    background-image: url(background2.jpeg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Source Code Pro', monospace;
+}
+
+header h1{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 25px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: left;
+}
+
+header .onglets{
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+header .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+header .debut{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header .debut span{
+    font-size: 4.4em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+header .debut p{
+    font-family: 'Poppins', sans-serif;
+}
+
+header .debut .lien{
+    background-color: rgb(249, 220, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    background-color: rgba(rgb(255, 213, 0), 13, 57, 959);
+    width: fit-content;
+    margin-top: 50px;
+}
+
+header .debut .lien a{
+    text-decoration: none;
+    color: inherit;
+    margin: 10px;
+}
+
+header .debut .lien img{
+    width: 50px;
+    height: 50px;
+}
+
+.design{
+    margin: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.program{
+    margin: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.title{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 3.3em;
+    margin-bottom: 30px;
+
+}
+
+.design .title{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: left;
+    text-align: center;
+}
+
+.program .title{
+    display: flex;
+    justify-content: center;
+}
+
+.design .contenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.design p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.program .contenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.program p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulaire .title{
+    color: #fff;
+}
+
+.formulaire p{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0,2s;
+}
+
+button{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row .input-group{
+    flex-basis: 48%;
+}
+
+i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#message-envoi{
+    display: none;
+    background-color: #e7f3fe;
+    padding: 10px;
+    border: 1px solid #b0d4f1;
+    margin-top: 20px;
+  }
+
+footer{
+    margin-top: 50px;
+    background-color: #111;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 40%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: #000;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-family: 'Source Code Pro', monospace;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media screen and (max-width:640px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-image: url(background-3104413_1280);
+        background-size: cover;
+        background-position: center;
+        width: min-content;
+        height: min-content;
+    }
+
+    header{
+        background-image: url(background2.jpeg);
+        background-size: cover;
+        background-position: center;
+        width: min-content;
+        height: min-content;
+    }
+
+    header h1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    header .onglets{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    header .debut span{
+        margin-right: 50px;
+    }
+
+    header .debut p{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .title {
+        font-size: 2.7em;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .design p{
+        display: flex;
+        text-align: none;
+        margin-right: none;
+    }
+
+    .design .contenu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulaire{
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+
+    form{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .footerContainer .footerNav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerContainer .footerNav ul li{
+        margin-top: 10px;
+    }
+}

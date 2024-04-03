@@ -1,0 +1,327 @@
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 3px;
+}
+
+img{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+body{
+    background: #1f293a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    width: 1000px;
+    height: 1500px;
+    margin: 50px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container .left_side{
+    position: relative;
+    background: #2f3e58;
+    padding: 40px;
+}
+
+.my_profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+    
+}
+
+.my_profile h2{
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.my_profile h2 span{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+.my_profile .my_photo{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.title{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.title2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact{
+    margin-bottom: 50px;
+}
+
+.reseaux{
+    margin-bottom: 50px;
+}
+
+.contact .liste1 span div{
+    display: flex;
+    margin-left: 20px;
+    
+}
+
+.reseaux .liste1 span div{
+    display: flex;
+    margin-left: 20px;
+    
+}
+
+.contact .liste1{
+    position: relative;
+    margin: 10px;
+    color: #ffffff;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    margin-right: 10px;
+    display: flex;
+}
+
+.contact .liste1 .icon i{
+    color: #0ef;
+}
+
+.reseaux .liste1{
+    position: relative;
+    margin: 10px;
+    color: #ffffff;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    margin-right: 10px;
+    display: flex;
+}
+
+.reseaux .liste1 .icon i{
+    color: #0ef;
+}
+
+.education .liste2{
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    color: #ffffff;
+    text-align: left;
+    margin-right: 10px;
+    border: 1px solid #ffffff;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.education .liste2 h4{
+    font-size: 13px;
+    color: rgb(19, 154, 212);
+}
+
+.education .liste2 a {
+    color: #ffffff;
+}
+
+.education .liste2 .domaine{
+    opacity: .5;
+}
+
+.languages {
+    padding-top: 15px;
+}
+
+.languages .block{
+    margin: 40px;
+}
+
+.languages .pourcent1{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: red;
+    margin-top: 10px;
+}
+
+.languages .pourcent2{
+    position: relative;
+    width: 65%;
+    height: 6px;
+    background: red;
+    margin-top: 10px;
+}
+
+.languages .pourcent3{
+    position: relative;
+    width: 80%;
+    height: 6px;
+    background: red;
+    margin-top: 10px;
+}
+
+.languages .block .text3{
+    color: #ffffff;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container .right_side{
+    position: relative;
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+.title2{
+    color: #2f3e58;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+
+.a_propos p{
+    color: #000;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.experience {
+    border: 1px solid #2f3e58;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.a_propos .experience div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.a_propos .annee_experience div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.annee_experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.annee_experience a{
+    color: #ffffff;
+    background-color: #2f3e58;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .4s ease-in;
+}
+
+.annee_experience a:hover {
+    color: #1f293a;
+    background-color: #ffffff;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+.a_propos .experience h4{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills{
+    padding-top: 10px;
+}
+
+.skills .box{
+    margin-bottom: 40px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.skills .box .pourcent1{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(22, 115, 255);
+    margin-top: 5px;
+}
+
+.skills .box .pourcent2{
+    position: relative;
+    width: 65%;
+    height: 6px;
+    background: rgb(22, 115, 255);
+    margin-top: 5px;
+}
+
+.skills .box .pourcent3{
+    position: relative;
+    width: 80%;
+    height: 6px;
+    background: rgb(22, 115, 255);
+    margin-top: 10px;
+}
+
+.activites{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    margin: 3px;
+}
+
+.activites .liste3 .text4{
+    font-size: 15px;
+    margin-top: 1px;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 998px){
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact .liste1,
+    .reseaux .liste1 {
+        margin-left: 60px;
+    }
+
+    .activites {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2em;
+    }
+
+}
+
